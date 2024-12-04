@@ -26,17 +26,30 @@ body {
 .pageContent {
   padding: 1.5%;
   display: flex;
+  display: -ms-flexbox;
 }
 
 .sidebar {
+  -ms-flex: 30%;
   flex: 30%;
   padding-right: 2%;
 }
 
 .main {
+  -ms-flex: 70%;
   flex: 70%;
 }
 
 img {
   width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  #navigationBar {
+    position: relative;
+  }
+
+  .pageContent {
+    flex-direction: column;
+  }
 }
