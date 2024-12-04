@@ -22,3 +22,21 @@ body {
   display: inline-block;
   padding: 15px;
 }
+
+.pageContent {
+  padding: 1.5%;
+  display: flex;
+}
+
+.sidebar {
+  flex: 30%;
+  padding-right: 2%;
+}
+
+.main {
+  flex: 70%;
+}
+
+img {
+  width: 100%;
+}
