@@ -1,0 +1,17 @@
+body {
+  font-size: 50px;
+  font-family: sans-serif;
+  margin: 0px;
+  text-align: center;
+}
+
+#container {
+  position: fixed;
+  width: 100%;
+  bottom: 50%;
+}
+
+#movingContent {
+  height: 50px;
+  overflow: hidden;
+}
