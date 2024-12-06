@@ -15,3 +15,27 @@ body {
   height: 50px;
   overflow: hidden;
 }
+
+#movingContent > div > div {
+  display: inline-block;
+  height: 50px;
+}
+
+#movingContent div:first-child {
+  animation: show 15s linear infinite;
+}
+
+@keyframes show {
+  0% {
+    margin-top: -0px;
+  }
+  10% {
+    margin-top: -0px;
+  }
+  90% {
+    margin-top: -350px;
+  }
+  100% {
+    margin-top: -0px;
+  }
+}
